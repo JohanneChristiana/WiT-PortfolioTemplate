@@ -1,1 +1,1 @@
-# WiT-PortfolioTemplate
+# WiT PortfolioTemplate
