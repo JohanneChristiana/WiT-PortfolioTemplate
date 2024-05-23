@@ -1,0 +1,130 @@
+<!-- 
+  Website Portfolio Creation: Template with Comments
+  By: Johanne Christiana
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--Head is a container for Metadata: Metadata is not displayed on screen/it's hidden-->
+    <!--Title of the document: It is shown on browser's title bar-->
+    <title>My Portfolio</title>
+
+    <meta charset="UTF-8"> <!--character encoding that can represent almost all characters from all languages-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--webpage content scaled appropriately to fit the device's screen size.-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge"> <!--ensures compatibility with the latest rendering engine.-->
+
+    <link rel="stylesheet" href="css/style.css"> <!--Add CSS for more appearance/style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Add Socials-->
+
+<body data-spy="scroll" data-target="#navbar-site" data-offset="80">
+
+    <!-------------------------------------------NAVIGATION BAR--------------------------------------------->
+    <header>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-item"><a href="#select-home">Home</a></li>
+                <li class="nav-item"><a href="#select-projects">Projects</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-----------------------------------------END NAVIGATION BAR------------------------------------------->
+    <!--------------- Home / Introduction Page --------------->
+    <div id="select-home" class="top-homepage">
+        <br><br><br>
+        <!-- ROW 1 -->
+        <!--Description and Photo-->
+        <table style="margin-left: 188px">
+            <tr>
+                <td>
+                    <h2 style="font-family: 'Courier New', Courier, monospace;">Hi,</h2>
+                    <h1>I'm <font size="+6" COLOR="#FFAEBC">Women in Tech VU</font>
+                    </h1>
+                    <font size="+1">
+                        <p>Welcome to our club's Portfolio Template <br> Studying Information Technology at Victoria
+                            University</p>
+                        <p>This Club is a safe environment for women interested in Technology! A place to build
+                            friendships, learn new insights and knowledge, connect with staff and experience leadership.
+                        </p>
+                    </font>
+                </td>
+                <td><img class="my_photo" src="./img/logo.png" alt="my photo" width="250" height="250"></td>
+            </tr>
+        </table>
+        <!-- ROW 2 -->
+        <table style="margin-left: 188px">
+            <tr>
+                <td>
+                    <!--Buttons-->
+                    <a href="./img/flyer.pdf" target="_blank" download="Flyer">
+                        <!--target="_blank" makes it open in new tab-->
+                        <button type="button" style="margin-right: 30px"><strong>Download Flyer</button>
+                    </a>
+                    <a href="./img/schedule.pdf" target="_blank" download="Schedule">
+                        <button type="button"><strong>Download Program Schedule</button><br>
+                    </a>
+                    <!--Socials-->
+                    <a href="https://www.facebook.com/profile.php?id=61557628015397" target="_blank"
+                        class="fa fa-facebook" style="font-size: 35px"></a>
+                    <a href="https://www.linkedin.com/company/women-in-tech-vu/" target="_blank" class="fa fa-linkedin"
+                        style="font-size: 35px"></a>
+                    <a href="https://www.instagram.com/wit.vu/" target="_blank" class="fa fa-instagram"
+                        style="font-size: 35px"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--------------- Projects Page --------------->
+    <br><br><br>
+
+    <div class="projects" id="select-projects">
+        <br>
+        <h1>View Projects</h1>
+        <p>Here are some personal projects I have worked on.</p>
+
+        <!--------------- Projects Images --------------->
+        <div class="card-container">
+            <!-- CARD ONE -->
+            <div class="card">
+                <img src="./img/project1.png">
+                <div class="card-content">
+                    <h3>Project 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+            <!-- CARD TWO -->
+            <div class="card">
+                <img src="./img/project2.png">
+                <div class="card-content">
+                    <h3>Project 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</head>
+
+</html>
