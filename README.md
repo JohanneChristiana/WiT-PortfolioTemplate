@@ -1,4 +1,4 @@
-# 📄 WiT PortfolioTemplate
+# 📄 WiT VU PortfolioTemplate
 This Simple Website Portfolio Template was purposefully made for Women in Tech VU Members (2024) to have a template for their website and practice HTML/CSS.
 
 ## Preview
